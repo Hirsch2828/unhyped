@@ -1,0 +1,60 @@
+/* Design tokens (spec/DESIGN.md §2–4) */
+:root {
+  --cream: #F5F1E8;
+  --olive: #66705A;
+  --terracotta: #C86F4A; /* non-text accents only */
+  --charcoal: #242522;
+  --breaking-red: #D6423A; /* Breaking only, never text */
+  --white: #FFFFFF;
+
+  --font-heading: "Manrope", system-ui, sans-serif;
+  --font-body: "Inter", system-ui, sans-serif;
+
+  --space-1: 8px;
+  --space-2: 16px;
+  --space-3: 24px;
+  --space-4: 32px;
+  --space-6: 48px;
+  --space-8: 64px;
+
+  --radius-card: 12px;
+  --radius-chip: 999px;
+  --max-width: 1200px;
+  --reading-width: 680px;
+  --gutter: var(--space-2);
+}
+
+@media (min-width: 768px) {
+  :root { --gutter: var(--space-4); }
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--cream);
+  color: var(--charcoal);
+  font: 400 16px/1.6 var(--font-body);
+}
+
+h1, h2, h3 {
+  font-family: var(--font-heading);
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+a { color: var(--olive); }
+
+.intro {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: var(--space-8) var(--gutter);
+  text-align: center;
+}
+
+.intro h1 { font-size: 28px; margin: 0 0 var(--space-2); }
+
+@media (min-width: 768px) {
+  .intro h1 { font-size: 40px; }
+}
+.intro p { margin: 0; }
