@@ -150,6 +150,8 @@
 - הסרגל מראה "Updating… collecting · filtering · merging", עם פס התקדמות עדין. הדף נשאר גלוי מתחת.
 - סיפור חדש שהגיע מקבל סימון "New" לכמה שניות.
 - נכשל: "Update failed. Showing latest stories." באותו מקום, בלי חלון קופץ.
+- אחרי כדקה מופיע כפתור "Show new stories". הדף לא בודק לבד בטיימר (עודכן 1.11).
+- אין חיבור ל־n8n: "Live update isn't available right now. Showing latest stories." (עודכן 1.11).
 
 ### עמוד ידיעה (#10, #11)
 סדר הסעיפים לפי ה־Kit, חמש שאלות:
