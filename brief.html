@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Unhyped: Your morning brief</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Manrope:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="progress-line" aria-hidden="true"><span id="progress"></span></div>
+  <div class="wrap wrap--reading">
+    <header class="topbar">
+      <a class="logo" href="index.html">unhyped</a>
+      <nav aria-label="Main"><a class="btn btn--quiet" href="index.html">← Back to feed</a></nav>
+    </header>
+    <main id="main">
+      <section class="brief-head">
+        <p class="meta" id="brief-date"></p>
+        <h1>Good morning.</h1>
+        <p class="meta">About 5 minutes · <span id="brief-count"></span> stories</p>
+      </section>
+      <div id="brief-items"></div>
+      <section class="caught-up">
+        <h2>You're all caught up.</h2>
+        <p><a class="btn btn--primary" href="index.html">Back to feed</a></p>
+      </section>
+      <p id="brief-error" class="error" hidden></p>
+    </main>
+    <footer class="foot">Prototype with sample data. This brief is written by hand, not by AI.</footer>
+  </div>
+  <script type="module" src="js/brief.js"></script>
+</body>
+</html>

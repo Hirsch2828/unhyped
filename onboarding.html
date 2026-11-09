@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Unhyped: Choose your topics</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Manrope:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="wrap wrap--reading">
+    <header class="topbar">
+      <a class="logo" href="index.html">unhyped</a>
+    </header>
+
+    <main id="main">
+      <section class="step" data-step="welcome">
+        <h1>AI news, minus the hype.</h1>
+        <p class="step__lead">Pick what you care about. We show only what matters, and merge the copies into one story.</p>
+        <div class="actions"><button class="btn btn--primary" type="button" data-next>Get started</button></div>
+      </section>
+
+      <section class="step" data-step="topics" hidden>
+        <div class="progress" aria-hidden="true"><span></span><span></span><span></span></div>
+        <h1>What do you want to follow?</h1>
+        <p class="step__lead">Pick at least one.</p>
+        <div class="choice-grid" id="topic-choices"></div>
+        <p class="error" id="topic-error" hidden>Pick at least one topic to continue.</p>
+        <div class="actions"><button class="btn btn--primary" type="button" data-next>Next</button></div>
+      </section>
+
+      <section class="step" data-step="subtopics" hidden>
+        <div class="progress" aria-hidden="true"><span class="is-done"></span><span></span><span></span></div>
+        <h1>Which parts?</h1>
+        <p class="step__lead">Pick at least one part for each topic you chose.</p>
+        <div id="subtopic-groups"></div>
+        <p class="error" id="subtopic-error" hidden>Pick at least one part for each topic.</p>
+        <div class="actions"><button class="btn btn--primary" type="button" data-next>Next</button></div>
+      </section>
+
+      <section class="step" data-step="depth" hidden>
+        <div class="progress" aria-hidden="true"><span class="is-done"></span><span class="is-done"></span><span></span></div>
+        <h1>How much do you want to know?</h1>
+        <p class="step__lead">You can change this later.</p>
+        <div class="depth" role="radiogroup" aria-label="How much to know">
+          <button class="big-choice" type="button" role="radio" aria-checked="false" data-depth="big">
+            <span class="big-choice__name">Only the big stuff</span>
+            <small>Only the most important stories.</small>
+          </button>
+          <button class="big-choice" type="button" role="radio" aria-checked="true" data-depth="important">
+            <span class="big-choice__name">The important stuff</span>
+            <small>Important stories, and the big ones first.</small>
+          </button>
+          <button class="big-choice" type="button" role="radio" aria-checked="false" data-depth="all">
+            <span class="big-choice__name">Everything</span>
+            <small>Everything that matters, including smaller updates.</small>
+          </button>
+        </div>
+        <div class="actions"><button class="btn btn--primary" type="button" data-next>Show me my feed</button></div>
+      </section>
+    </main>
+  </div>
+  <script type="module" src="js/onboarding.js"></script>
+</body>
+</html>

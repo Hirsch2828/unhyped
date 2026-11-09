@@ -1,0 +1,417 @@
+{
+  "generated_from": "spec/raw_items.json (week of 28.9.2026)",
+  "note": "Hand-written mock stories for the frontend prototype. Subtopics and audiences are placeholders until the lists are decided.",
+  "stories": [
+    {
+      "id": "s-tesla-vpp",
+      "kind": "story",
+      "topic": "tesla",
+      "subtopics": [
+        "energy"
+      ],
+      "audiences": [
+        "investors"
+      ],
+      "title": "Tesla and Sunrun dispatch a record 580 MW from home batteries",
+      "summary": "On September 9, Sunrun and Tesla pulled a record 580 megawatts from home batteries onto California's grid during a heat wave. The dispatch pooled more than 140,000 home batteries over a three-hour evening window.",
+      "why_it_matters": "It is the largest residential distributed power plant event on record, and it shows home batteries can help the grid at peak demand.",
+      "what_changed": "",
+      "importance": "high",
+      "certainty": "report",
+      "claims": [
+        {
+          "text": "The dispatch pulled 580 MW from home batteries, a record for residential distributed power.",
+          "source_urls": [
+            "https://electrek.co/2026/09/21/sunrun-tesla-580-mw-california-grid-record/"
+          ]
+        },
+        {
+          "text": "More than 140,000 home batteries took part in a three-hour window.",
+          "source_urls": [
+            "https://electrek.co/2026/09/21/sunrun-tesla-580-mw-california-grid-record/"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "source_id": "electrek",
+          "url": "https://electrek.co/2026/09/21/sunrun-tesla-580-mw-california-grid-record/",
+          "title": "Tesla and Sunrun’s virtual power plant dispatch record 580 MW to California grid",
+          "level": 2,
+          "published_at": "2026-09-21T13:03:03+00:00"
+        }
+      ],
+      "published_at": "2026-09-21T13:03:03+00:00"
+    },
+    {
+      "id": "s-tesla-robotaxi",
+      "kind": "story",
+      "topic": "tesla",
+      "subtopics": [
+        "robotaxi"
+      ],
+      "audiences": [
+        "investors"
+      ],
+      "title": "Tesla's active robotaxi fleet in Austin falls back to 8 vehicles",
+      "summary": "Community tracker Robotaxi Tracker counts 8 active Tesla robotaxis in Austin over the past seven days. That is about the number Tesla had when the service launched in June 2025.",
+      "why_it_matters": "After fifteen months, the fleet shows no net growth, even after the Cybercab launch.",
+      "what_changed": "",
+      "importance": "high",
+      "certainty": "report",
+      "claims": [
+        {
+          "text": "The active robotaxi fleet in Austin is 8 vehicles over the past seven days.",
+          "source_urls": [
+            "https://electrek.co/2026/09/22/tesla-robotaxi-active-fleet-austin-crashes-8-vehicles/"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "source_id": "electrek",
+          "url": "https://electrek.co/2026/09/22/tesla-robotaxi-active-fleet-austin-crashes-8-vehicles/",
+          "title": "Tesla’s active robotaxi fleet in Austin crashes back to 8 vehicles after Cybercab pump",
+          "level": 2,
+          "published_at": "2026-09-22T13:45:22+00:00"
+        }
+      ],
+      "published_at": "2026-09-22T13:45:22+00:00"
+    },
+    {
+      "id": "s-tesla-semi-order",
+      "kind": "story",
+      "topic": "tesla",
+      "subtopics": [
+        "trucks"
+      ],
+      "audiences": [
+        "investors"
+      ],
+      "title": "Tesla Semi wins a 2,500-truck order through ZET SCALE",
+      "summary": "Tesla was named the primary truck supplier for the largest electric Class 8 order in US history: 2,500 battery-electric trucks bought through the shipper alliance ZET SCALE. The alliance targets more than 10,000 trucks over time.",
+      "why_it_matters": "The order alone would nearly double the number of electric Class 8 trucks on US roads.",
+      "what_changed": "",
+      "importance": "high",
+      "certainty": "report",
+      "claims": [
+        {
+          "text": "The order is 2,500 battery-electric trucks through ZET SCALE.",
+          "source_urls": [
+            "https://electrek.co/2026/09/22/tesla-semi-2500-truck-order-zet-scale-largest-us/"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "source_id": "electrek",
+          "url": "https://electrek.co/2026/09/22/tesla-semi-2500-truck-order-zet-scale-largest-us/",
+          "title": "Tesla Semi wins 2,500-truck order, doubling US electric Class 8 fleet",
+          "level": 2,
+          "published_at": "2026-09-22T19:56:06+00:00"
+        }
+      ],
+      "published_at": "2026-09-22T19:56:06+00:00"
+    },
+    {
+      "id": "s-tesla-semi-production",
+      "kind": "story",
+      "topic": "tesla",
+      "subtopics": [
+        "trucks"
+      ],
+      "audiences": [
+        "investors"
+      ],
+      "title": "Tesla Semi enters volume production in Nevada",
+      "summary": "Tesla launched high-volume production of the Semi at its new factory in Nevada, which it says can build 50,000 trucks a year. The Semi was unveiled in 2017, with production promised for 2019.",
+      "why_it_matters": "It is the first time the truck moves from a promise to a production line, seven years late.",
+      "what_changed": "Tesla says deliveries \"start now\" and detailed a redesigned truck.",
+      "importance": "high",
+      "certainty": "report",
+      "claims": [
+        {
+          "text": "The Nevada factory can build 50,000 electric trucks per year, according to Tesla.",
+          "source_urls": [
+            "https://electrek.co/2026/09/25/tesla-semi-volume-production-launch-nevada-factory/"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "source_id": "electrek",
+          "url": "https://electrek.co/2026/09/25/tesla-semi-volume-production-launch-nevada-factory/",
+          "title": "Tesla Semi finally enters volume production, 7 years behind schedule",
+          "level": 2,
+          "published_at": "2026-09-25T12:31:37+00:00"
+        }
+      ],
+      "published_at": "2026-09-25T12:31:37+00:00"
+    },
+    {
+      "id": "s-tesla-fsd-camera",
+      "kind": "story",
+      "topic": "tesla",
+      "subtopics": [
+        "fsd"
+      ],
+      "audiences": [
+        "drivers"
+      ],
+      "title": "FSD v14.3.9 wrongly reports dirty cameras",
+      "summary": "Tesla's newest Full Self-Driving update, v14.3.9, tells owners their cameras are dirty when they are not, and sends them to service. Tesla confirmed the bug and is canceling the service appointments it triggered.",
+      "why_it_matters": "Owners who follow the alert would pay for a service they do not need.",
+      "what_changed": "A fix is expected in a coming update.",
+      "importance": "medium",
+      "certainty": "report",
+      "claims": [
+        {
+          "text": "Tesla confirmed the false camera alert bug in v14.3.9.",
+          "source_urls": [
+            "https://electrek.co/2026/09/22/tesla-fsd-v14-3-9-false-camera-service-alerts/"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "source_id": "electrek",
+          "url": "https://electrek.co/2026/09/22/tesla-fsd-v14-3-9-false-camera-service-alerts/",
+          "title": "Tesla Full Self-Driving bug falsely flags dirty cameras, demands service",
+          "level": 2,
+          "published_at": "2026-09-22T14:26:44+00:00"
+        }
+      ],
+      "published_at": "2026-09-22T14:26:44+00:00"
+    },
+    {
+      "id": "s-ai-gpt6-sol-luna",
+      "kind": "story",
+      "topic": "ai",
+      "subtopics": [
+        "models"
+      ],
+      "audiences": [
+        "developers"
+      ],
+      "title": "OpenAI releases GPT-6 Sol and Luna",
+      "summary": "OpenAI introduced GPT-6 Sol and Luna, two models that offer different balances of capability and cost. Simon Willison reports they are half the price of their GPT-5.6 equivalents.",
+      "why_it_matters": "Developers get a cheaper option for their daily work, and the price drop puts pressure on rivals.",
+      "what_changed": "Both models cost half as much as the GPT-5.6 versions, according to Simon Willison.",
+      "importance": "critical",
+      "certainty": "official",
+      "claims": [
+        {
+          "text": "GPT-6 Sol and Luna offer two balances of capability and cost.",
+          "source_urls": [
+            "https://openai.com/index/introducing-gpt-6-sol-and-luna"
+          ]
+        },
+        {
+          "text": "GPT-6 Sol and Luna are half the price of GPT-5.6 equivalents.",
+          "source_urls": [
+            "https://simonwillison.net/2026/Sep/22/opus-and-sol-and-luna/"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "source_id": "openai",
+          "url": "https://openai.com/index/introducing-gpt-6-sol-and-luna",
+          "title": "Introducing GPT-6 Sol and Luna",
+          "level": 1,
+          "published_at": "2026-09-22T18:00:00+00:00"
+        },
+        {
+          "source_id": "simon_willison",
+          "url": "https://simonwillison.net/2026/Sep/22/opus-and-sol-and-luna/",
+          "title": "Claude Opus 5.5, GPT-6 Sol, GPT-6 Luna, and a new price war",
+          "level": 2,
+          "published_at": "2026-09-22T23:46:41+00:00"
+        }
+      ],
+      "published_at": "2026-09-22T18:00:00+00:00"
+    },
+    {
+      "id": "s-ai-opus-55",
+      "kind": "story",
+      "topic": "ai",
+      "subtopics": [
+        "models"
+      ],
+      "audiences": [
+        "developers"
+      ],
+      "title": "Anthropic releases Claude Opus 5.5",
+      "summary": "Anthropic released Claude Opus 5.5, about an hour before OpenAI released GPT-6 Sol and Luna. Simon Willison says it is too early for a full read on the new models.",
+      "why_it_matters": "The release starts a price war between the big labs.",
+      "what_changed": "",
+      "importance": "high",
+      "certainty": "report",
+      "claims": [
+        {
+          "text": "Anthropic released Claude Opus 5.5 on September 22.",
+          "source_urls": [
+            "https://simonwillison.net/2026/Sep/22/opus-and-sol-and-luna/"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "source_id": "simon_willison",
+          "url": "https://simonwillison.net/2026/Sep/22/opus-and-sol-and-luna/",
+          "title": "Claude Opus 5.5, GPT-6 Sol, GPT-6 Luna, and a new price war",
+          "level": 2,
+          "published_at": "2026-09-22T23:46:41+00:00"
+        }
+      ],
+      "published_at": "2026-09-22T23:46:41+00:00"
+    },
+    {
+      "id": "s-ai-gemini-live",
+      "kind": "story",
+      "topic": "ai",
+      "subtopics": [
+        "models"
+      ],
+      "audiences": [
+        "consumers"
+      ],
+      "title": "Google introduces Gemini 3.8 Live with Live Avatar",
+      "summary": "Google DeepMind introduced Gemini 3.8 Live with Live Avatar, which gives Google's AI a face. The Verge covered the launch.",
+      "why_it_matters": "Voice and video assistants are becoming a main way people talk to AI.",
+      "what_changed": "Not yet announced: pricing and availability.",
+      "importance": "high",
+      "certainty": "official",
+      "claims": [
+        {
+          "text": "Gemini 3.8 Live comes with a Live Avatar.",
+          "source_urls": [
+            "https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar/"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "source_id": "google_deepmind",
+          "url": "https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar/",
+          "title": "Introducing Gemini 3.8 Live with Live Avatar",
+          "level": 1,
+          "published_at": "2026-09-24T16:20:39+00:00"
+        },
+        {
+          "source_id": "verge_ai",
+          "url": "https://www.theverge.com/tech/1000328/google-gemini-ai-live-avatar-face",
+          "title": "Gemini 3.8 Live with Live Avatar gives Google’s AI a face",
+          "level": 2,
+          "published_at": "2026-09-24T15:59:26-04:00"
+        }
+      ],
+      "published_at": "2026-09-24T16:20:39+00:00"
+    },
+    {
+      "id": "s-ai-anthropic-voting",
+      "kind": "story",
+      "topic": "ai",
+      "subtopics": [
+        "business"
+      ],
+      "audiences": [
+        "investors"
+      ],
+      "title": "Anthropic's founders seek voting control ahead of IPO",
+      "summary": "Anthropic is asking shareholders to approve a structure that would give its seven co-founders a combined 50.1% of the vote on most corporate matters.",
+      "why_it_matters": "Investors would have less say in key decisions before the company goes public.",
+      "what_changed": "",
+      "importance": "medium",
+      "certainty": "report",
+      "claims": [
+        {
+          "text": "The seven co-founders would hold a combined 50.1% of the vote on most matters.",
+          "source_urls": [
+            "https://techcrunch.com/2026/09/25/anthropics-founders-seek-voting-control-ahead-of-ipo/"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "source_id": "techcrunch",
+          "url": "https://techcrunch.com/2026/09/25/anthropics-founders-seek-voting-control-ahead-of-ipo/",
+          "title": "Anthropic’s founders seek voting control ahead of IPO",
+          "level": 2,
+          "published_at": "2026-09-25T15:40:03+00:00"
+        }
+      ],
+      "published_at": "2026-09-25T15:40:03+00:00"
+    },
+    {
+      "id": "s-ai-openai-agent-breach",
+      "kind": "story",
+      "topic": "ai",
+      "subtopics": [
+        "security"
+      ],
+      "audiences": [
+        "developers"
+      ],
+      "title": "An OpenAI agent breached an Australian government system",
+      "summary": "Ars Technica reports that an OpenAI agent \"didn't accept no for an answer\" during a breach of an Australian government system. The prime minister promised there will be legal consequences.",
+      "why_it_matters": "It is an early example of an AI agent causing a real breach in a government system.",
+      "what_changed": "",
+      "importance": "high",
+      "certainty": "report",
+      "claims": [
+        {
+          "text": "An OpenAI agent was involved in a breach of an Australian government system.",
+          "source_urls": [
+            "https://arstechnica.com/ai/2026/09/openai-agent-didnt-accept-no-for-an-answer-in-australian-government-breach/"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "source_id": "ars_ai",
+          "url": "https://arstechnica.com/ai/2026/09/openai-agent-didnt-accept-no-for-an-answer-in-australian-government-breach/",
+          "title": "OpenAI agent “didn’t accept no for an answer” in Australian government breach",
+          "level": 2,
+          "published_at": "2026-09-24T16:01:16+00:00"
+        }
+      ],
+      "published_at": "2026-09-24T16:01:16+00:00"
+    },
+    {
+      "id": "s-ai-eviltokens",
+      "kind": "story",
+      "topic": "ai",
+      "subtopics": [
+        "security"
+      ],
+      "audiences": [
+        "developers"
+      ],
+      "title": "Microsoft disrupts EvilTokens, an AI-assisted platform behind 12,000 compromised accounts",
+      "summary": "Microsoft disrupted an AI-assisted platform called EvilTokens, which compromised 12,000 accounts. Ars Technica says the platform made mass compromises faster and easier.",
+      "why_it_matters": "Attacks that used to take skill can now run at scale.",
+      "what_changed": "",
+      "importance": "medium",
+      "certainty": "report",
+      "claims": [
+        {
+          "text": "The platform compromised 12,000 accounts before Microsoft disrupted it.",
+          "source_urls": [
+            "https://arstechnica.com/security/2026/09/microsoft-disrupts-ai-assisted-platform-that-compromised-12000/"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "source_id": "ars_ai",
+          "url": "https://arstechnica.com/security/2026/09/microsoft-disrupts-ai-assisted-platform-that-compromised-12000/",
+          "title": "Microsoft disrupts AI-assisted platform that compromised 12,000 accounts",
+          "level": 2,
+          "published_at": "2026-09-22T19:45:47+00:00"
+        }
+      ],
+      "published_at": "2026-09-22T19:45:47+00:00"
+    }
+  ]
+}

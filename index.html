@@ -3,16 +3,33 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Unhyped</title>
+  <title>Unhyped: Home</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Manrope:wght@600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <main class="intro">
-    <h1>Unhyped</h1>
-    <p>Calm editorial intelligence in a world of noisy technology news.</p>
-  </main>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="wrap">
+    <header class="topbar">
+      <a class="logo" href="index.html">unhyped</a>
+      <nav aria-label="Main">
+        <button id="run-update" class="btn btn--quiet" type="button" aria-label="Run update now">⟳ Run update now</button>
+        <a class="btn btn--quiet" href="onboarding.html">Topics</a>
+      </nav>
+    </header>
+    <p id="status" class="status-line" role="status" aria-live="polite"></p>
+
+    <main id="main">
+      <div id="feed" aria-busy="true">
+        <div class="skeleton" style="margin-top:24px"></div>
+      </div>
+      <p id="feed-error" class="error" hidden></p>
+    </main>
+
+    <footer class="foot">Prototype with sample data. Sources are linked on every story.</footer>
+  </div>
+  <script type="module" src="js/feed.js"></script>
 </body>
 </html>
